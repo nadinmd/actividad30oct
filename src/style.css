@@ -1,0 +1,92 @@
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #001988ad;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #001988ad;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.contenedor {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 45%;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.contenedor h2 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.contenedor p {
+    color: #555;
+    font-size: 1em;
+}
+
+
+footer {
+    background-color:#001988ad;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFD700;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.receta {
+    width: 100%;
+    margin-bottom: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
